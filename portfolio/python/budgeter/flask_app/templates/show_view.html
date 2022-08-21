@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>{{show.title}}</title>
+  </head>
+  <body>
+    
+    <div class="container">
+
+        <div class="card">
+            <div class="d-flex justify-content-between row">
+                <h1>{{ show.title }}</h1>
+            <div class="mt-2">
+                <a href="/">
+                    <button type="submit" class="btn btn-success ">Dashboard</button>
+                </a>
+                <a href="/user/logout">
+                    <button type="submit" class="btn btn-primary ">Logout</button>
+                </a>
+            </div>
+            </div>
+            <div class="mb-3">
+                Release Date: {{ show.release_date }}
+            </div>
+            <div class="mb-3">
+                <p>Description: {{ show.description }}</p>
+            </div>
+            <div class="mb-3">
+                <p>Posted By: {{ name_of_poster }}</p>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+    </div> 
+  </body>
+</html>

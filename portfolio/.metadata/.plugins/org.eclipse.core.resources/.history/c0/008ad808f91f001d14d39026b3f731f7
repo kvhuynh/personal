@@ -1,0 +1,5 @@
+package com.kevinhuynh.riotgamesstattracker.models;
+
+public class User {
+
+}
