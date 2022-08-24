@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=11
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=11
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=omikuji
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.7.2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=omikuji form assignment
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.kevinhuynh.omikuji
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=Omikuji
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.kevinhuynh.omikuji
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

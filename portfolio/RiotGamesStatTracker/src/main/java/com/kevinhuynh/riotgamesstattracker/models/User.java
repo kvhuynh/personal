@@ -47,14 +47,14 @@ public class User {
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date updatedAt;
     
-	@Transient
-    @NotEmpty(message="Confirm Password is required!")
-    @Size(min=8, max=128, message="Confirm Password must be between 8 and 128 characters")
-    private String confirm;
+//	@Transient
+//    @NotEmpty(message="Confirm Password is required!")
+//    @Size(min=8, max=128, message="Confirm Password must be between 8 and 128 characters")
+//    private String confirm;
 	
-	@OneToMany(mappedBy="user", fetch = FetchType.LAZY)
-	private List<ClassName> classNames;
-	
+//	@OneToMany(mappedBy="user", fetch = FetchType.LAZY)
+//	private List<ClassName> classNames;
+//	
     @PrePersist
 	protected void onCreate() {
 		this.createdAt = new Date();
@@ -115,11 +115,11 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	public String getConfirm() {
-		return confirm;
-	}
-
-	public void setConfirm(String confirm) {
-		this.confirm = confirm;
-	}
+}
+//	public String getConfirm() {
+//		return confirm;
+//	}
+//
+//	public void setConfirm(String confirm) {
+//		this.confirm = confirm;
+//	}
