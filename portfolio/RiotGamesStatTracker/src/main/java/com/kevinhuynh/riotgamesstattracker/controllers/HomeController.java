@@ -1,5 +1,7 @@
 package com.kevinhuynh.riotgamesstattracker.controllers;
 
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,8 +33,11 @@ public class HomeController {
 	
 	@PostMapping("/summoner")
 	public String displaySummoner(@ModelAttribute("summoner") Summoner summoner, Model model) {
-		System.out.println(summoner.getName());
-		System.out.println(summonerService.getSummonerData(summoner.getName()));
+//		System.out.println(summoner.getName());
+//		System.out.println(summonerService.getSummonerData(summoner.getName()));
+		ArrayList<Object> summonerData = summonerService.getSummonerData(summoner.getName());
+		Summoner fullSummoner = summonerService.toSummoner(summonerData);
+//		System.out.println(fullSummoner);
 		return "redirect:/dashboard.jsp";
 	}
 	

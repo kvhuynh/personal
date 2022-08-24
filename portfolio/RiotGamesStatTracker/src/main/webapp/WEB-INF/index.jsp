@@ -35,9 +35,6 @@
 				<form:form action="/summoner" modelAttribute="summoner" class="d-flex flex-column col-6" method="POST">
 					<form:label path="name">Enter Summoner name:</form:label>
 					<form:input type="text" path="name"></form:input>
-					<form:errors path="name"></form:errors>
-							
-					
 					<input type="submit" class="btn btn-danger" value="Add Book"/>
 				</form:form>
 			</div>
